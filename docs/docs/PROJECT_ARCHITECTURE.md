@@ -1,1 +1,0 @@
-# PrepWise System Architecture
