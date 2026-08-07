@@ -45,3 +45,29 @@ Evaluate the candidate's answer using the following criteria:
    - Determine whether the candidate demonstrates the ability to apply the concept in a practical situation.
 
 Do not penalize the candidate for using different wording from the Expected Topics if the underlying concept is correctly explained.
+
+
+## Scoring
+
+Assign a score from 0 to 10 for each evaluation criterion:
+
+- technical_accuracy
+- completeness
+- clarity
+- communication
+- practical_understanding
+
+Calculate an overall_score from these five criteria.
+
+The overall score must also be between 0 and 10.
+
+Use the following general interpretation:
+
+- 0–2: Very Poor
+- 3–4: Needs Significant Improvement
+- 5–6: Average
+- 7–8: Good
+- 9–10: Excellent
+
+Scores must reflect the quality of the candidate's actual answer.
+Do not give high scores simply because the candidate uses technical terminology.
