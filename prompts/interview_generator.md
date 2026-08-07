@@ -75,3 +75,18 @@ The response must follow this structure:
   ]
 }
 ```
+
+## Validation
+
+Before returning the response, verify that:
+
+- The output is valid JSON.
+- The number of generated questions matches the requested number.
+- Every question is relevant to the candidate's resume or the Job Description (JD).
+- Questions are not duplicated.
+- The requested difficulty level is respected.
+- Every question includes:
+  - Category
+  - Difficulty
+  - Expected Topics
+- The response contains no explanations, markdown, or additional text outside the JSON object.
