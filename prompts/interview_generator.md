@@ -51,3 +51,27 @@ The Resume JSON follows the PrepWise Resume JSON Schema.
 7. Avoid asking duplicate or repetitive questions.
 
 8. Generate questions in a logical order, starting from easier questions and gradually increasing complexity.
+
+9. 
+
+## Output Format
+
+Return ONLY a valid JSON object.
+
+The response must follow this structure:
+
+```json
+{
+  "interview_type": "",
+  "difficulty": "",
+  "questions": [
+    {
+      "question_number": 1,
+      "category": "",
+      "question": "",
+      "expected_topics": [],
+      "difficulty": ""
+    }
+  ]
+}
+```
