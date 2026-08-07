@@ -92,3 +92,19 @@ Use the following structure:
   "feedback": "",
   "improvement_suggestions": []
 }
+
+
+## Validation
+
+Before returning the response, verify that:
+
+- The output is valid JSON.
+- All five evaluation scores are between 0 and 10.
+- The overall score is between 0 and 10.
+- The scores are consistent with the quality of the candidate's answer.
+- The feedback is specific to the candidate's actual answer.
+- Strengths identify things the candidate did well.
+- Weaknesses identify specific areas that need improvement.
+- Improvement suggestions are actionable and relevant.
+- The evaluation does not invent information that is not present in the candidate's answer.
+- The response contains no Markdown or additional text outside the JSON object.
