@@ -63,3 +63,28 @@ Extract only the information explicitly available in the resume.
 6. If multiple education, experience, projects, certifications, or links exist, include all of them.
 7. Ignore decorative elements, icons, images, headers, footers, and page numbers.
 8. Return only information that belongs to the defined Resume JSON Schema.
+
+## Example Output
+
+```json
+{
+  "name": "John Doe",
+  "headline": "AI Engineer",
+  "email": "john@example.com",
+  "phone": "+91XXXXXXXXXX",
+  "location": "Bangalore, India",
+
+  "skills": [
+    {
+      "category": "Programming Language",
+      "name": "Python"
+    }
+  ],
+
+  "education": [],
+  "experience": [],
+  "projects": [],
+  "certifications": [],
+  "links": []
+}
+```
