@@ -44,3 +44,22 @@ If a field is not present in the resume:
 Do not guess or invent information.
 
 Extract only the information explicitly available in the resume.
+
+
+## Extraction Rules
+
+1. Extract information exactly as it appears in the resume.
+2. Do not infer or assume missing information.
+3. Normalize dates into a consistent format whenever possible.
+4. Preserve the original wording for project descriptions and responsibilities.
+5. Categorize skills into appropriate categories such as:
+   - Programming Language
+   - Framework
+   - Database
+   - Cloud
+   - AI/ML
+   - DevOps
+   - Tools
+6. If multiple education, experience, projects, certifications, or links exist, include all of them.
+7. Ignore decorative elements, icons, images, headers, footers, and page numbers.
+8. Return only information that belongs to the defined Resume JSON Schema.
