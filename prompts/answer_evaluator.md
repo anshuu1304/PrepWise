@@ -71,3 +71,24 @@ Use the following general interpretation:
 
 Scores must reflect the quality of the candidate's actual answer.
 Do not give high scores simply because the candidate uses technical terminology.
+
+## Output Format
+
+Return ONLY a valid JSON object.
+
+Use the following structure:
+
+{
+  "scores": {
+    "technical_accuracy": 0,
+    "completeness": 0,
+    "clarity": 0,
+    "communication": 0,
+    "practical_understanding": 0,
+    "overall_score": 0
+  },
+  "strengths": [],
+  "weaknesses": [],
+  "feedback": "",
+  "improvement_suggestions": []
+}
