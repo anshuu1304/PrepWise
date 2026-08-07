@@ -88,3 +88,14 @@ Extract only the information explicitly available in the resume.
   "links": []
 }
 ```
+
+
+## Validation
+
+Before returning the response, verify that:
+
+- The output is valid JSON.
+- The JSON follows the PrepWise Resume JSON Schema.
+- No required top-level field is missing.
+- No information has been invented or inferred.
+- Empty values are represented using "" or [] as appropriate.
